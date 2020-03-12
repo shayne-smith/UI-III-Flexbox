@@ -63,4 +63,125 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	text-align: center;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.navigation {
+	background-color: gray;
+	z-index: 10;
+	width: 90%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+nav {
+	width: 75%;
+	margin-right: 4%;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 4%;
+}
+
+.logo {
+	margin: 1.5% 1% 1.5% 0;
+}
+
+header {
+	margin: 12.5% 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.title {
+	margin: 0 10%;
+	max-width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.button {
+	border: 1px solid black;
+	padding: 2% 10%;
+	display: flex;
+	justify-content: center;
+	max-width: 55%;
+	max-height: 10%;
+	align-items: center;
+}
+
+.section1 {
+	border-top: 2px solid black;
+	padding: 3% 0;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+}
+
+.features {
+	max-width: 49%;
+	text-align: left;
+}
+
+.about {
+	max-width: 49%;
+	text-align: left;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.section2 {
+	padding: 4% 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services {
+	text-align: left;
+	max-width: 32%;
+	margin-right: 1%;
+}
+
+.product {
+	text-align: left;
+	max-width: 32%;
+	margin-right: 1%;
+}
+
+.vision {
+	text-align: left;
+	max-width: 32%;
+}
+
+.contact {
+	border-top: 2px solid black;
+	padding: 3% 0;
+	text-align: left;
+}
+
+#phone {
+	line-height: 3;
+}
+
+footer {
+	padding-bottom: 8%;
+}
